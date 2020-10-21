@@ -7,30 +7,62 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="wrap_simpleNet">
+    <h1>Kahden tietokoneen verkko</h1>
+    <figure class="simpleNet">
+      <div></div>
+      <div></div>
+    </figure>
+  </div>
+  <div class="wrap_packets">
+    <h1>Pakettikytkentä</h1>
+    <figure class="packets">
+      <div class="img_100"></div>
+      <div class="img_p">
+        <div class="img_25"></div>
+        <div class="img_25"></div>
+        <div class="img_25"></div>
+        <div class="img_25"></div>
+      </div>
+      <div class="line-packets"></div>
+    </figure>
+  </div>
+  <!-- <div class="wrap_layers">
+    <h1>Internetin kerrokset</h1>
+    <p>lead text</p>
+    <figure class="layers">
+      <div class="layer-5">sovellus '}{'</div>
+      <div class="layer-4">kuljetus ==></div>
+      <div class="layer-3">verkko 0/\_0</div>
+      <div class="layer-2">linkki [ ]</div>
+      <div class="layer-1">fyysinen ~ ~</div>
+    </figure>
+  </div> -->
   <!-- <h3>Yhden internetissä liikkuvan viestin sisältö</h3> -->
   <!-- <b>Kun selain haluaa näyttää verkkosivun, sen täytyy lähettää pyyntö sivua säilövälle palvelimelle. Pyyntö on käytännössä tekstiä.</b> -->
-  <div class="wrap">
+  <div class="wrap_message">
     <p>Sovelluskerros</p>
     <figure class="app_waffle"></figure>
     <div class="block-info"></div>
-    <span class="t1">Hae ("GET")</span>
+    <span id="t1" class="t">Hae ("GET")</span>
     <span class="line1"></span>
-    <span class="t2">Hae ("GET")</span>
+    <span id="t2" class="t">Hae ("GET")</span>
     <span class="line2"></span>
     <div class="cir2"></div>
+    <!-- <p>Nämä tavut ovat http-protokollan versiota 1.1. Se kulkee internetissä tällaisenaan ihmisille luettavana. Versiosta 2 alkaen http-viestit koodataan niin, että niiden lähettäminen on tehokkaampaa ja lukeminen ihmisille käytännössä mahdotonta.</p> -->
+    <!-- <p>Sovelluskerros on kerroksista ainut, jonka kanssa tavallinen internetkäyttäjä on tekemisissä. Muilla kerroksilla viestit ovatkin dadaa eikä niitä ole järkevää näyttää ASCII-muodossa.</p> -->
+    <!-- <p>Tässä kuljetuskerroksen viesti heksadesimaalilukuina (hex). Heksadesimaaliluvut ovat binäärilukuja helpommin luettava muoto.</p> -->
+    <!-- <p>Internetin sovellukset käyttävät tiettyjä portteja. Jotta viesti voi löytää tiensä oikealle sovellukselle, on portti kirjattava kuljetuskerroksella.<br>Heksadesimaaliluku 0050 kääntyy desimaaliluvuksi 80, joka on http-protokollan käyttämä portti. Tänä päivänä yleisempi on portti 443, jota käyttää salattu http-protokolla eli https.</p> -->
 
     <p>Kuljetuskerros</p>
     <figure class="tra_waffle"></figure>
-    <!-- <span>20 tavua</span> -->
+    <p id="t3" class="t">Viestin vastaanottavan sovelluksen porttinumero:<br>hex-luku 00 50 kääntyy numeroksi 80</p>
 
     <p>Verkkokerros</p>
     <figure class="net_waffle"></figure>
 
     <p>Linkkikerros</p>
     <figure class="lin_waffle"></figure>
-
-    <p>Vohveli</p>
-    <figure class="vohveli"></figure>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.min.js"></script>
   <script src="main.js"></script>

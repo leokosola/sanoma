@@ -1,0 +1,23 @@
+mikä tämä on?
+	nettisivu
+mistä nettisivu koostuu?
+	tiedostoista
+mistä tiedostot tulevat?
+	palvelimelta
+miten tiedostot tulevat palvelimelta?
+	tietopyynnöllä
+miten tietopyyntö saavuttaa palvelimen?
+	linkkien avulla
+miten viestit löytävät perille?
+	erilaisten osoitteiden avulla
+millaisia osoitteita on olemassa?
+	sovelluksilla on portteja
+	internetlaitteilla on ip-osoitteita
+	laitteilla on mac-osoitteita
+miten esimerkiksi kuvan voi lähettää verkossa?
+	kuva tai muu tiedosto lähetetään yhtenä tai
+	useampana pakettina
+	sisältö koodataan muotoon jossa sen voi fyysisesti
+	siirtää, esimerkiksi valoksi (tästä lisää myöhemmin)
+mistä paketti koostuu?
+	

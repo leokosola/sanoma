@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
  
-.wrap {
+.wrap_message {
   width: 100%;
   /* height: 100vh; */
   position: relative;
@@ -24,11 +24,12 @@
   width: 10px;
   height: 10px;
   margin: 2px;
-  font-size: 8px;
+  font-size: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: dimgray;
+  font-family: monospace;
 }
  
 .block-info {
@@ -52,9 +53,12 @@
 .highlight {
   outline: 1px solid black;
 }
- 
-.t1 {
+
+.t {
   position: absolute;
+}
+ 
+#t1 {
   top: 52px;
   left: 207px;
 }
@@ -69,8 +73,7 @@
   transform: rotate(5deg);
 }
 
-.t2 {
-  position: absolute;
+#t2 {
   top: 81px;
   left: 207px;
 }
@@ -95,3 +98,102 @@
   height: 16px;
 }
 
+#t3 {
+  top: 650px;
+  left: 200px;
+}
+
+/* Yksinkertaisin verkko */
+
+.wrap_simpleNet,
+.wrap_packets {
+  margin-bottom: 100vh;
+}
+
+.simpleNet {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.simpleNet div {
+  width: 30px;
+  height: 30px;
+  background-color: #CCCCCC;
+}
+
+.simpleNet.div :nth-child(1) {
+
+}
+
+/* Kerrokset ja niiden tehtävät */
+
+.wrap_layers {
+  margin: auto;
+  width: 100%;
+}
+
+figure.layers {
+  display: flex;
+  flex-direction: column;
+}
+
+.layer-1,
+.layer-2,
+.layer-3,
+.layer-4,
+.layer-5 {
+  width: 50%;
+  height: 50px;
+  background-color: #CCCCCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid dimgray;
+}
+
+figure.layers :nth-child(5) {
+  border-bottom: 0px solid black !important;
+}
+
+/* Paketit */
+
+.packets {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.img_100 {
+  /* position: absolute; */
+  width: 80px;
+  height: 80px;
+  background-color: #CCCCCC;
+}
+
+.img_p {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80px;
+  margin-left: 100px;
+}
+
+.img_25 {
+  /* position: absolute; */
+  width: 48%;
+  height: 49%;
+  margin: .5%;
+  background-color: #CCCCCC;
+} 
+
+.line-packets {
+  position: absolute;
+  top: 40px;
+  left: 87px;
+  border-bottom: 1px dotted black;
+  opacity: .5;
+  width: 85px;
+}
