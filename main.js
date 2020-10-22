@@ -105,19 +105,61 @@ lin_waffle
   .style('opacity', 0)
   .transition()
   .delay((d, i) => { return i * 20; })
-	.style('opacity', 1);
+  .style('opacity', 1);
+  
+// STREAM
 
+const stream_data = [
+  {
+    id: 0,
+    source: 'left',
+    protocol: 'DNS'
+  },
+  {
+    id: 1,
+    source: 'right',
+    protocol: 'TCP'
+  },
+  {
+    id: 0,
+    source: 'left',
+    protocol: 'DNS'
+  },
+  {
+    id: 1,
+    source: 'right',
+    protocol: 'TCP'
+  },
+  {
+    id: 0,
+    source: 'left',
+    protocol: 'DNS'
+  },
+  {
+    id: 1,
+    source: 'right',
+    protocol: 'TCP'
+  }
+];
 
-// TESTI
+const stream_waffle = d3.select('.stream_waffle');
+stream_waffle
+  .selectAll('.block-bg')
+  .data(stream_data)
+  .enter()
+  .append('div')
+  .attr('class', d =>
+    d.source === 'left' ? 'block-bg l' : 'block-bg r'
+  )
+  .append('div')
+  .attr('class', d => 
+    d.source === 'left' ? 'block left' : 'block right' 
+  )
+  // .text(d => d.protocol)
+  .style('background-color', '#CCCCCC');
+  // .style('outline', d =>
+    // d.protocol === 'DNS' ? '1px solid blue' : '1px solid red'
+  // );
 
-// const letArray = ['A', 'B', 'C', 'D', 'E'];
-// const vohveli = d3.select('.vohveli');
-
-// vohveli
-// 	.selectAll('.block')
-// 	.data(splitted_text)
-// 	.enter()
-// 	.append('div')
-// 	.attr('class', 'block')
-// 	.style('background-color', '#CCCCCC')
-// 	.text((d) => { return d; });
+const tärkeät = stream_data.filter(d => d.id === 0);
+console.log(tärkeät);
