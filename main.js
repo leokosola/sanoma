@@ -142,24 +142,37 @@ const stream_data = [
   }
 ];
 
-const stream_waffle = d3.select('.stream_waffle');
-stream_waffle
-  .selectAll('.block-bg')
-  .data(stream_data)
-  .enter()
-  .append('div')
-  .attr('class', d =>
-    d.source === 'left' ? 'block-bg l' : 'block-bg r'
-  )
-  .append('div')
-  .attr('class', d => 
-    d.source === 'left' ? 'block left' : 'block right' 
-  )
-  // .text(d => d.protocol)
-  .style('background-color', '#CCCCCC');
-  // .style('outline', d =>
-    // d.protocol === 'DNS' ? '1px solid blue' : '1px solid red'
-  // );
+
 
 const tärkeät = stream_data.filter(d => d.id === 0);
 console.log(tärkeät);
+
+let data;
+
+fetch('data.json')
+  .then((u) => {
+    return u.json();
+  })
+  .then((json) => {
+    data = json;
+
+    const stream_waffle = d3.select('.stream_waffle');
+    stream_waffle
+      .selectAll('.block-bg')
+      .data(data)
+      .enter()
+      .append('div')
+      .attr('class', d =>
+        d.source === '86.50.8.240' ? 'block-bg l' : 'block-bg r'
+      )
+      .append('div')
+      .attr('class', d => 
+        d.source === '86.50.8.240' ? 'block left' : 'block right' 
+      )
+      // .text(d => d.protocol)
+      .style('background-color', '#CCCCCC');
+      // .style('outline', d =>
+        // d.protocol === 'DNS' ? '1px solid blue' : '1px solid red'
+      // );  
+  
+  });

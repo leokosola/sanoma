@@ -1,0 +1,1136 @@
+﻿[
+	{
+		"index": "1",
+		"time": "0.000000",
+		"source": "86.50.8.240",
+		"destination": "128.214.173.27",
+		"protocol": "DNS",
+		"length": "81",
+		"description": "Standard query 0x6a3c A www.tommitenkanen.net"
+	},
+	{
+		"index": "2",
+		"time": "0.026588",
+		"source": "86.50.8.240",
+		"destination": "128.214.173.29",
+		"protocol": "DNS",
+		"length": "81",
+		"description": "Standard query 0x6a3c A www.tommitenkanen.net"
+	},
+	{
+		"index": "3",
+		"time": "0.043968",
+		"source": "128.214.173.27",
+		"destination": "86.50.8.240",
+		"protocol": "DNS",
+		"length": "111",
+		"description": "Standard query response 0x6a3c A www.tommitenkanen.net CNAME tommitenkanen.net A 188.117.28.99"
+	},
+	{
+		"index": "4",
+		"time": "0.051278",
+		"source": "86.50.8.240",
+		"destination": "128.214.173.27",
+		"protocol": "DNS",
+		"length": "77",
+		"description": "Standard query 0xbfaf A tommitenkanen.net"
+	},
+	{
+		"index": "5",
+		"time": "0.051940",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "52855 → 80 [SYN] Seq=0 Win=17520 Len=0 MSS=1460 WS=256 SACK_PERM=1"
+	},
+	{
+		"index": "6",
+		"time": "0.058833",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "80 → 52855 [SYN"
+	},
+	{
+		"index": "7",
+		"time": "0.058999",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=1 Ack=1 Win=17408 Len=0"
+	},
+	{
+		"index": "8",
+		"time": "0.063972",
+		"source": "128.214.173.27",
+		"destination": "86.50.8.240",
+		"protocol": "DNS",
+		"length": "93",
+		"description": "Standard query response 0xbfaf A tommitenkanen.net A 188.117.28.99"
+	},
+	{
+		"index": "9",
+		"time": "0.065256",
+		"source": "86.50.8.240",
+		"destination": "128.214.173.27",
+		"protocol": "DNS",
+		"length": "77",
+		"description": "Standard query 0xb222 AAAA tommitenkanen.net"
+	},
+	{
+		"index": "10",
+		"time": "0.067588",
+		"source": "86.50.8.240",
+		"destination": "34.252.84.252",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "52856 → 80 [SYN] Seq=0 Win=17520 Len=0 MSS=1460 WS=256 SACK_PERM=1"
+	},
+	{
+		"index": "11",
+		"time": "0.071609",
+		"source": "128.214.173.29",
+		"destination": "86.50.8.240",
+		"protocol": "DNS",
+		"length": "111",
+		"description": "Standard query response 0x6a3c A www.tommitenkanen.net CNAME tommitenkanen.net A 188.117.28.99"
+	},
+	{
+		"index": "12",
+		"time": "0.073822",
+		"source": "128.214.173.27",
+		"destination": "86.50.8.240",
+		"protocol": "DNS",
+		"length": "136",
+		"description": "Standard query response 0xb222 AAAA tommitenkanen.net SOA ns1.webhotelli.fi"
+	},
+	{
+		"index": "13",
+		"time": "0.113875",
+		"source": "34.252.84.252",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "80 → 52856 [SYN"
+	},
+	{
+		"index": "14",
+		"time": "0.114020",
+		"source": "86.50.8.240",
+		"destination": "34.252.84.252",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52856 → 80 [ACK] Seq=1 Ack=1 Win=17408 Len=0"
+	},
+	{
+		"index": "15",
+		"time": "0.114272",
+		"source": "86.50.8.240",
+		"destination": "34.252.84.252",
+		"protocol": "HTTP",
+		"length": "213",
+		"description": "GET /V3/01/99.28.117.188.ip/ HTTP/1.1 "
+	},
+	{
+		"index": "16",
+		"time": "0.159849",
+		"source": "86.50.8.240",
+		"destination": "34.252.84.252",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "52857 → 80 [SYN] Seq=0 Win=17520 Len=0 MSS=1460 WS=256 SACK_PERM=1"
+	},
+	{
+		"index": "17",
+		"time": "0.160861",
+		"source": "34.252.84.252",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "60",
+		"description": "80 → 52856 [ACK] Seq=1 Ack=160 Win=28672 Len=0"
+	},
+	{
+		"index": "18",
+		"time": "0.160861",
+		"source": "34.252.84.252",
+		"destination": "86.50.8.240",
+		"protocol": "HTTP",
+		"length": "94",
+		"description": "HTTP/1.1 200 OK "
+	},
+	{
+		"index": "19",
+		"time": "0.173790",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "HTTP",
+		"length": "417",
+		"description": "GET / HTTP/1.1 "
+	},
+	{
+		"index": "20",
+		"time": "0.177840",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "60",
+		"description": "80 → 52855 [ACK] Seq=1 Ack=364 Win=30336 Len=0"
+	},
+	{
+		"index": "21",
+		"time": "0.186868",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=1 Ack=364 Win=30336 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "22",
+		"time": "0.186868",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=1461 Ack=364 Win=30336 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "23",
+		"time": "0.186868",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=2921 Ack=364 Win=30336 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "24",
+		"time": "0.186868",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=4381 Ack=364 Win=30336 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "25",
+		"time": "0.186868",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=5841 Ack=364 Win=30336 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "26",
+		"time": "0.186868",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=7301 Ack=364 Win=30336 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "27",
+		"time": "0.186868",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "HTTP",
+		"length": "154",
+		"description": "HTTP/1.1 200 OK  (text/html)"
+	},
+	{
+		"index": "28",
+		"time": "0.186972",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=364 Ack=8861 Win=17408 Len=0"
+	},
+	{
+		"index": "29",
+		"time": "0.204178",
+		"source": "86.50.8.240",
+		"destination": "34.252.84.252",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52856 → 80 [ACK] Seq=160 Ack=41 Win=17408 Len=0"
+	},
+	{
+		"index": "30",
+		"time": "0.207500",
+		"source": "34.252.84.252",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "80 → 52857 [SYN"
+	},
+	{
+		"index": "31",
+		"time": "0.207674",
+		"source": "86.50.8.240",
+		"destination": "34.252.84.252",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52857 → 80 [ACK] Seq=1 Ack=1 Win=17408 Len=0"
+	},
+	{
+		"index": "32",
+		"time": "0.207855",
+		"source": "86.50.8.240",
+		"destination": "34.252.84.252",
+		"protocol": "HTTP",
+		"length": "220",
+		"description": "GET /V3/01/jjj.gbzzvgraxnara.arg.m/ HTTP/1.1 "
+	},
+	{
+		"index": "33",
+		"time": "0.251935",
+		"source": "34.252.84.252",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "60",
+		"description": "80 → 52857 [ACK] Seq=1 Ack=167 Win=28672 Len=0"
+	},
+	{
+		"index": "34",
+		"time": "0.252546",
+		"source": "34.252.84.252",
+		"destination": "86.50.8.240",
+		"protocol": "HTTP",
+		"length": "122",
+		"description": "HTTP/1.1 200 OK "
+	},
+	{
+		"index": "35",
+		"time": "0.294212",
+		"source": "86.50.8.240",
+		"destination": "34.252.84.252",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52857 → 80 [ACK] Seq=167 Ack=69 Win=17408 Len=0"
+	},
+	{
+		"index": "36",
+		"time": "0.484655",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "HTTP",
+		"length": "387",
+		"description": "GET /Tommi_liitutaulu.jpg HTTP/1.1 "
+	},
+	{
+		"index": "37",
+		"time": "0.494068",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=8861 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "38",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=10321 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "39",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=11781 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "40",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=13241 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "41",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=14701 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "42",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=16161 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "43",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [PSH"
+	},
+	{
+		"index": "44",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=19081 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "45",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=20541 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "46",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=22001 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "47",
+		"time": "0.494906",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=23461 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "48",
+		"time": "0.495064",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=697 Ack=24921 Win=17408 Len=0"
+	},
+	{
+		"index": "49",
+		"time": "0.499279",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=24921 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "50",
+		"time": "0.499279",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=26381 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "51",
+		"time": "0.499279",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=27841 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "52",
+		"time": "0.499279",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=29301 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "53",
+		"time": "0.499279",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [PSH"
+	},
+	{
+		"index": "54",
+		"time": "0.499279",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=32221 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "55",
+		"time": "0.499279",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=33681 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "56",
+		"time": "0.499279",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=35141 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "57",
+		"time": "0.499433",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=697 Ack=36601 Win=17408 Len=0"
+	},
+	{
+		"index": "58",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=36601 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "59",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [PSH"
+	},
+	{
+		"index": "60",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=39521 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "61",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=40981 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "62",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=42441 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "63",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=43901 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "64",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=45361 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "65",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=46821 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "66",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=48281 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "67",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=49741 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "68",
+		"time": "0.504545",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=51201 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "69",
+		"time": "0.504815",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=697 Ack=52661 Win=17408 Len=0"
+	},
+	{
+		"index": "70",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [PSH"
+	},
+	{
+		"index": "71",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=54121 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "72",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=55581 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "73",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=57041 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "74",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=58501 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "75",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=59961 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "76",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=61421 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "77",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=62881 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "78",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=64341 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "79",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=65801 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "80",
+		"time": "0.509419",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [PSH"
+	},
+	{
+		"index": "81",
+		"time": "0.509650",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=697 Ack=68721 Win=17408 Len=0"
+	},
+	{
+		"index": "82",
+		"time": "0.514332",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=68721 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "83",
+		"time": "0.514332",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=70181 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "84",
+		"time": "0.514332",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=71641 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "85",
+		"time": "0.514332",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "[TCP Previous segment not captured] 80 → 52855 [ACK] Seq=74561 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "86",
+		"time": "0.514332",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=76021 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "87",
+		"time": "0.514332",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=77481 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "88",
+		"time": "0.514332",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=78941 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "89",
+		"time": "0.514530",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "52855 → 80 [ACK] Seq=697 Ack=73101 Win=17408 Len=0 SLE=74561 SRE=80401"
+	},
+	{
+		"index": "90",
+		"time": "0.519299",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=80401 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "91",
+		"time": "0.519299",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [PSH"
+	},
+	{
+		"index": "92",
+		"time": "0.519299",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "[TCP Out-Of-Order] 80 → 52855 [ACK] Seq=73101 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "93",
+		"time": "0.519299",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=83321 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "94",
+		"time": "0.519299",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=84781 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "95",
+		"time": "0.519299",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=86241 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "96",
+		"time": "0.519299",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=87701 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "97",
+		"time": "0.519476",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "[TCP Dup ACK 89#1] 52855 → 80 [ACK] Seq=697 Ack=73101 Win=17408 Len=0 SLE=74561 SRE=83321"
+	},
+	{
+		"index": "98",
+		"time": "0.519648",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=697 Ack=83321 Win=129792 Len=0"
+	},
+	{
+		"index": "99",
+		"time": "0.519765",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=697 Ack=89161 Win=129792 Len=0"
+	},
+	{
+		"index": "100",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=89161 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "101",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=90621 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "102",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=92081 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "103",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=93541 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "104",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=95001 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "105",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [PSH"
+	},
+	{
+		"index": "106",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=97921 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "107",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=99381 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "108",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=100841 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "109",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=102301 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "110",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "1514",
+		"description": "80 → 52855 [ACK] Seq=103761 Ack=697 Win=31360 Len=1460 [TCP segment of a reassembled PDU]"
+	},
+	{
+		"index": "111",
+		"time": "0.524618",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "HTTP",
+		"length": "465",
+		"description": "HTTP/1.1 200 OK  (JPEG JFIF image)"
+	},
+	{
+		"index": "112",
+		"time": "0.524865",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=697 Ack=105632 Win=129792 Len=0"
+	},
+	{
+		"index": "113",
+		"time": "0.634028",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "HTTP",
+		"length": "378",
+		"description": "GET /favicon.ico HTTP/1.1 "
+	},
+	{
+		"index": "114",
+		"time": "0.639654",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "HTTP",
+		"length": "569",
+		"description": "HTTP/1.1 404 Not Found  (text/html)"
+	},
+	{
+		"index": "115",
+		"time": "0.684121",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=1021 Ack=106147 Win=129280 Len=0"
+	},
+	{
+		"index": "116",
+		"time": "2.641631",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "60",
+		"description": "80 → 52855 [FIN"
+	},
+	{
+		"index": "117",
+		"time": "2.641728",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [ACK] Seq=1021 Ack=106148 Win=129280 Len=0"
+	},
+	{
+		"index": "118",
+		"time": "2.642031",
+		"source": "86.50.8.240",
+		"destination": "188.117.28.99",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52855 → 80 [FIN"
+	},
+	{
+		"index": "119",
+		"time": "2.644402",
+		"source": "188.117.28.99",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "60",
+		"description": "80 → 52855 [ACK] Seq=106148 Ack=1022 Win=32512 Len=0"
+	},
+	{
+		"index": "120",
+		"time": "3.404554",
+		"source": "86.50.8.240",
+		"destination": "52.71.211.152",
+		"protocol": "TLSv1.2",
+		"length": "595",
+		"description": "Application Data"
+	},
+	{
+		"index": "121",
+		"time": "3.527346",
+		"source": "52.71.211.152",
+		"destination": "86.50.8.240",
+		"protocol": "TLSv1.2",
+		"length": "403",
+		"description": "Application Data"
+	},
+	{
+		"index": "122",
+		"time": "3.569056",
+		"source": "86.50.8.240",
+		"destination": "52.71.211.152",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52516 → 443 [ACK] Seq=542 Ack=350 Win=67 Len=0"
+	},
+	{
+		"index": "123",
+		"time": "4.268093",
+		"source": "86.50.8.240",
+		"destination": "51.105.249.239",
+		"protocol": "TLSv1.2",
+		"length": "97",
+		"description": "Application Data"
+	},
+	{
+		"index": "124",
+		"time": "4.294127",
+		"source": "51.105.249.239",
+		"destination": "86.50.8.240",
+		"protocol": "TLSv1.2",
+		"length": "228",
+		"description": "Application Data"
+	},
+	{
+		"index": "125",
+		"time": "4.337566",
+		"source": "86.50.8.240",
+		"destination": "51.105.249.239",
+		"protocol": "TCP",
+		"length": "54",
+		"description": "52494 → 443 [ACK] Seq=44 Ack=175 Win=67 Len=0"
+	},
+	{
+		"index": "126",
+		"time": "6.794651",
+		"source": "183.134.104.146",
+		"destination": "86.50.8.240",
+		"protocol": "TCP",
+		"length": "66",
+		"description": "58322 → 53 [SYN] Seq=0 Win=8192 Len=0 MSS=1260 WS=4 SACK_PERM=1"
+	}
+]
